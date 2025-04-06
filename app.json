@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "GRIND",
+    "slug": "grind",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/GRIND_logo_512x512.png",
+    "scheme": "GRIND",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/GRIND_logo_512x512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/GRIND_logo_512x512.png",
+        "backgroundColor": "#fff"
+      },
+      "package": "com.anonymous.grind"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/GRIND_logo_64x64.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8f509782-131e-4967-b3f0-2eaee819418a"
+      }
+    },
+    "owner": "muchassak"
+  }
+}
